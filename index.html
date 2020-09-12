@@ -198,7 +198,7 @@
       <!-- ./Portfolio -->
 
       <!-- About -->
-      <div i="about">
+      <div id="about">
         <h3>About Me</h3>
         <div><img src="profie-pic.png" alt="profile-image" /></div>
         <div class="aboutme">
@@ -222,6 +222,40 @@
       <!-- ./About -->
 
       <!-- Conntact -->
+      <div id="contact">
+        <h3>Get in touch</h3>
+        <form action="#" name="contact-form">
+          <label for="first_name">First Name</label>
+          <input id="first_name" type="text" required placeholder="John" />
+          <label for="last_name">Last Name</label>
+          <input
+            id="last_name"
+            name="last_name"
+            type="text"
+            required
+            placeholder="Doe"
+          />
+          <label for="email">Email</label>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            required
+            placeholder="you@domain.com"
+          />
+          <label for="message">Message</label><br />
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Enter your message here ..."
+            required
+          >
+          </textarea>
+          <div class="center">
+            <input type="submit" value="Submit" />
+          </div>
+        </form>
+      </div>
       <!-- ./Contact -->
     </main>
   </body>
