@@ -9,222 +9,247 @@
       name="keywords"
       content="Gulshan Saini, Gulshan Saini Portfolio, Fullstack Developer"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
       <h1>Gulshan Saini</h1>
       <nav>
-        <ul>
-          <li>Portfolio</li>
-          <li>Services</li>
-          <li>About</li>
-          <li>Contact</li>
+        <a id="nav-menu-icon">Menu</a>
+        <ul id="nav-menu">
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
 
-    <main>
-      <!-- Hero -->
-      <div>
-        <div>
-          <h1>Hey 👋, I'm Gulshan Saini</h1>
+    <!-- Hero -->
+    <div class="hero">
+      <div class="content">
+        <h1>Hey 👋, I'm Gulshan Saini</h1>
 
-          <h2>I make websites.</h2>
+        <h2>I make websites.</h2>
 
-          <p>
-            I’m fullstack developer at Exponential, a global provider of
-            advertising intelligence and digital media solutions to brand
-            advertisers.
-          </p>
-        </div>
-        <button>Portfolio</button>
+        <p>
+          I’m fullstack developer at Exponential, a global provider of
+          advertising intelligence and digital media solutions to brand
+          advertisers.
+        </p>
       </div>
-      <!-- ./Hero -->
+      <a class="hero-cta" href="#portfolio">Portfolio</a>
+    </div>
+    <!-- ./Hero -->
 
+    <main>
       <!-- Portfolio -->
-      <div>
-        <h3>Portfolio</h3>
-        <div class="card">
-          <article>
-            <div class="card-image">
-              <img
-                src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=250&q=80"
-                alt=""
-              />
-            </div>
-            <div class="card__content">
-              <div class="card__content-title">
-                <a href="#"
-                  ><h2 class="card__content-title-text">
-                    Wireframe Designs
-                  </h2></a
-                >
+      <div id="portfolio" class="section">
+        <h2>Portfolio</h2>
+        <div class="content">
+          <div class="card">
+            <article>
+              <div class="card-image">
+                <img
+                  src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80"
+                  alt=""
+                />
               </div>
-              <div class="card__content-desc">
-                <p>
-                  Lorem ipsum dolor sit amet, sed te timeam voluptua oporteat.
-                  In vim oporteat deterruisset.
-                </p>
+              <div class="card__content">
+                <div class="card__content-title">
+                  <a href="#"
+                    ><h3 class="card__content-title-text">
+                      Wireframe Designs
+                    </h3></a
+                  >
+                </div>
+                <div class="card__content-desc">
+                  <p>
+                    Lorem ipsum dolor sit amet, sed te timeam voluptua oporteat.
+                    In vim oporteat deterruisset.
+                  </p>
+                </div>
               </div>
-            </div>
-          </article>
-        </div>
-        <div class="card">
-          <article>
-            <div class="card-image">
-              <img
-                src="https://images.unsplash.com/photo-1530435460869-d13625c69bbf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=250&q=80"
-                alt=""
-              />
-            </div>
-            <div class="card__content">
-              <div class="card__content-title">
-                <a href="#"
-                  ><h2 class="card__content-title-text">
-                    Landing Page Design
-                  </h2></a
-                >
+            </article>
+          </div>
+          <div class="card">
+            <article>
+              <div class="card-image">
+                <img
+                  src="https://images.unsplash.com/photo-1530435460869-d13625c69bbf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80"
+                  alt=""
+                />
               </div>
-              <div class="card__content-desc">
-                <p>
-                  Lorem ipsum dolor sit amet, sed te timeam voluptua oporteat.
-                  In vim oporteat deterruisset.
-                </p>
+              <div class="card__content">
+                <div class="card__content-title">
+                  <a href="#"
+                    ><h3 class="card__content-title-text">
+                      Landing Page Design
+                    </h3></a
+                  >
+                </div>
+                <div class="card__content-desc">
+                  <p>
+                    Lorem ipsum dolor sit amet, sed te timeam voluptua oporteat.
+                    In vim oporteat deterruisset.
+                  </p>
+                </div>
               </div>
-            </div>
-          </article>
-        </div>
-        <div class="card">
-          <article>
-            <div class="card-image">
-              <img
-                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=250&q=80"
-                alt=""
-              />
-            </div>
-            <div class="card__content">
-              <div class="card__content-title">
-                <a href="#"
-                  ><h2 class="card__content-title-text">
-                    Analytics Dashboard
-                  </h2></a
-                >
+            </article>
+          </div>
+          <div class="card">
+            <article>
+              <div class="card-image">
+                <img
+                  src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80"
+                  alt=""
+                />
               </div>
-              <div class="card__content-desc">
-                <p>
-                  Lorem ipsum dolor sit amet, sed te timeam voluptua oporteat.
-                  In vim oporteat deterruisset.
-                </p>
+              <div class="card__content">
+                <div class="card__content-title">
+                  <a href="#"
+                    ><h3 class="card__content-title-text">
+                      Analytics Dashboard
+                    </h3></a
+                  >
+                </div>
+                <div class="card__content-desc">
+                  <p>
+                    Lorem ipsum dolor sit amet, sed te timeam voluptua oporteat.
+                    In vim oporteat deterruisset.
+                  </p>
+                </div>
               </div>
-            </div>
-          </article>
-        </div>
-        <div class="card">
-          <article>
-            <div class="card-image">
-              <img
-                src="https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=250&q=80"
-                alt=""
-              />
-            </div>
-            <div class="card__content">
-              <div class="card__content-title">
-                <a href="#"
-                  ><h2 class="card__content-title-text">
-                    Social Media Campaign
-                  </h2></a
-                >
+            </article>
+          </div>
+          <div class="card">
+            <article>
+              <div class="card-image">
+                <img
+                  src="https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80"
+                  alt=""
+                />
               </div>
-              <div class="card__content-desc">
-                <p>
-                  Lorem ipsum dolor sit amet, sed te timeam voluptua oporteat.
-                  In vim oporteat deterruisset.
-                </p>
+              <div class="card__content">
+                <div class="card__content-title">
+                  <a href="#"
+                    ><h3 class="card__content-title-text">
+                      Social Media Campaign
+                    </h3></a
+                  >
+                </div>
+                <div class="card__content-desc">
+                  <p>
+                    Lorem ipsum dolor sit amet, sed te timeam voluptua oporteat.
+                    In vim oporteat deterruisset.
+                  </p>
+                </div>
               </div>
-            </div>
-          </article>
-        </div>
-        <div class="card">
-          <article>
-            <div class="card-image">
-              <img
-                src="https://images.unsplash.com/photo-1543185377-99cd16011803?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=250&q=80"
-                alt=""
-              />
-            </div>
-            <div class="card__content">
-              <div class="card__content-title">
-                <a href="#"
-                  ><h2 class="card__content-title-text">
-                    Youtube Brand Idenntity
-                  </h2>
-                </a>
+            </article>
+          </div>
+          <div class="card">
+            <article>
+              <div class="card-image">
+                <img
+                  src="https://images.unsplash.com/photo-1543185377-99cd16011803?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80"
+                  alt=""
+                />
               </div>
-              <div class="card__content-desc">
-                <p>
-                  Lorem ipsum dolor sit amet, sed te timeam voluptua oporteat.
-                  In vim oporteat deterruisset.
-                </p>
+              <div class="card__content">
+                <div class="card__content-title">
+                  <a href="#"
+                    ><h3 class="card__content-title-text">
+                      Youtube Brand Identity
+                    </h3>
+                  </a>
+                </div>
+                <div class="card__content-desc">
+                  <p>
+                    Lorem ipsum dolor sit amet, sed te timeam voluptua oporteat.
+                    In vim oporteat deterruisset.
+                  </p>
+                </div>
               </div>
-            </div>
-          </article>
-        </div>
-        <div class="card">
-          <article>
-            <div class="card-image">
-              <img
-                src="https://images.unsplash.com/photo-1543185377-b75671ac8741?ixlib=rb-1.2.1&auto=format&fit=crop&w=250&q=80"
-                alt=""
-              />
-            </div>
-            <div class="card__content">
-              <div class="card__content-title">
-                <a href="#"
-                  ><h2 class="card__content-title-text">
-                    Facebook Brand Identity
-                  </h2>
-                </a>
+            </article>
+          </div>
+          <div class="card">
+            <article>
+              <div class="card-image">
+                <img
+                  src="https://images.unsplash.com/photo-1543185377-b75671ac8741?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80"
+                  alt=""
+                />
               </div>
-              <div class="card__content-desc">
-                <p>
-                  Lorem ipsum dolor sit amet, sed te timeam voluptua oporteat.
-                  In vim oporteat deterruisset.
-                </p>
+              <div class="card__content">
+                <div class="card__content-title">
+                  <a href="#"
+                    ><h3 class="card__content-title-text">
+                      Facebook Brand Identity
+                    </h3>
+                  </a>
+                </div>
+                <div class="card__content-desc">
+                  <p>
+                    Lorem ipsum dolor sit amet, sed te timeam voluptua oporteat.
+                    In vim oporteat deterruisset.
+                  </p>
+                </div>
               </div>
-            </div>
-          </article>
+            </article>
+          </div>
         </div>
       </div>
       <!-- ./Portfolio -->
 
+      <!-- Services -->
+      <div id="services" class="section">
+        <h2>Services</h2>
+        <div class="">
+          <ul>
+            <li>Web Development</li>
+            <li>Technical Fesibility</li>
+            <li>Infrastructure Set-up</li>
+            <li>Architecture Design Review</li>
+            <li>Amazon Web Service Migration</li>
+          </ul>
+        </div>
+      </div>
+      <!-- ./Services -->
+
       <!-- About -->
-      <div id="about">
-        <h3>About Me</h3>
-        <div><img src="profie-pic.png" alt="profile-image" /></div>
-        <div class="aboutme">
-          <p>
-            I'm a full-stack developer from Delhi, India. I'm 37 years old and
-            I've been actively coding since 2007.
-          </p>
-          <p>Every day I use HTML, CSS JavaScript, React, and Node.js.</p>
+      <div id="about" class="section">
+        <h2>About Me</h2>
+        <div class="content">
+          <div><img src="profie-pic.png" alt="profile-image" /></div>
+          <div class="aboutme">
+            <p>
+              I'm a full-stack developer from Delhi, India. I'm 37 years old and
+              I've been actively coding since 2007.
+            </p>
+            <p>Every day I use HTML, CSS JavaScript, React, and Node.js.</p>
 
-          <p>
-            Using this platform, I am sharing short, to the point, byte-sized
-            tutorials. I am not a big fan of large tutorials which are hard to
-            follow.
-          </p>
+            <p>
+              Using this platform, I am sharing short, to the point, byte-sized
+              tutorials. I am not a big fan of large tutorials which are hard to
+              follow.
+            </p>
 
-          <p>I hope you enjoy your stay here and learn something new!!</p>
+            <p>I hope you enjoy your stay here and learn something new!!</p>
 
-          <p>Happy Learning! 😃</p>
+            <p>Happy Learning! 😃</p>
+          </div>
         </div>
       </div>
       <!-- ./About -->
 
       <!-- Conntact -->
-      <div id="contact">
-        <h3>Get in touch</h3>
-        <form action="#" name="contact-form">
+      <div id="contact" class="section">
+        <h2>Get in touch</h2>
+        <form action="#" id="contact-form" class="content">
           <label for="first_name">First Name</label>
           <input id="first_name" type="text" required placeholder="John" />
           <label for="last_name">Last Name</label>
@@ -243,11 +268,12 @@
             required
             placeholder="you@domain.com"
           />
-          <label for="message">Message</label><br />
+          <label for="message">Message</label>
           <textarea
             id="message"
             name="message"
             placeholder="Enter your message here ..."
+            value=""
             required
           >
           </textarea>
@@ -258,5 +284,17 @@
       </div>
       <!-- ./Contact -->
     </main>
+    <footer>
+      <p>&copy; Gulshan Saini - All rights reserved</p>
+      <div class="footer-links">
+        <ul>
+          <li><a href="">Twitter</a></li>
+          <li><a href="">Facebook</a></li>
+          <li><a href="">Dribble</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
   </body>
 </html>
