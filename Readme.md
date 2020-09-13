@@ -1,6 +1,6 @@
 # Requirements
 
-Before the webinar participants should install following tools on their system and create [GitHub](https://github.com/ account)
+Before the webinar participants should install following tools on their system and create [GitHub](https://github.com/account)
 
 ## Tools
 
