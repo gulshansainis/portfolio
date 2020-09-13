@@ -13,3 +13,7 @@
 13. 05 - Main -> Portfolio (body)
 14. 06 - Main -> About (body)
 15. 07 - Main -> Contact (body)
+16. 08 - Main -> Services (body)
+17. 09 - Footer (body)
+18. 10 - Styles (body)
+19. 11 - Mobile Menu (body)
