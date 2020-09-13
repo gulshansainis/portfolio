@@ -1,6 +1,6 @@
 # Requirements
 
-Before the webinar participants should install following tools on their system and create [GitHub]https://github.com/ account
+Before the webinar participants should install following tools on their system and create [GitHub](https://github.com/ account)
 
 ## Tools
 
@@ -17,3 +17,6 @@ Before the webinar participants should install following tools on their system a
 3. [Free Images](https://unsplash.com/)
 
 ## Repo details
+
+1. git clone https://github.com/gulshansainis/portfolio
+2. cd portfolio
