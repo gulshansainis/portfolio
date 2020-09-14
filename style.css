@@ -1,5 +1,5 @@
 *,
-*::after,
+*:after,
 *:before {
   margin: 0;
   padding: 0;
@@ -8,11 +8,26 @@
   list-style-type: none;
 }
 
+html,
+body {
+  font-size: 62.5%;
+  font-size: 10px;
+  font-family: "Open Sans", sans-serif;
+  scroll-behavior: smooth;
+  color: var(--black-200);
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Roboto", sans-serif;
+}
+
 :root {
-  --font-size-1: 2rem;
-  --font-size-2: 2.2rem;
-  --font-size-3: 3rem;
-  --font-size-4: 4rem;
+  --font-size-1: 2rem; /** 20 px */
+  --font-size-2: 2.2rem; /** 22 px */
+  --font-size-3: 3rem; /** 30 px */
+  --font-size-4: 4rem; /** 40px */
   --margin-1: 1rem;
   --margin-2: 2.5rem;
   --margin-3: 5rem;
@@ -26,28 +41,11 @@
   --black-200: #282828;
 }
 
+/** get rid of underline or decoration */
 a,
 button {
   outline: none;
   text-decoration: none;
-}
-
-html,
-body {
-  font-size: 62.5%;
-  font-size: 10px;
-  scroll-behavior: smooth;
-  color: var(--black-200);
-}
-
-body {
-  font-family: "Open Sans", sans-serif;
-}
-
-h1,
-h2,
-h3 {
-  font-family: "Roboto", sans-serif;
 }
 
 main {
@@ -56,13 +54,18 @@ main {
   margin: 0 auto;
 }
 
+/** header */
 header {
   display: flex;
-  align-items: center;
   justify-content: space-between;
   padding: var(--padding-2) var(--padding-1);
   box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3),
     0 2px 6px 2px rgba(60, 64, 67, 0.15);
+  align-items: center;
+}
+
+header ul#nav-menu {
+  display: none;
 }
 
 #nav-menu-icon {
@@ -72,10 +75,6 @@ header {
   padding: var(--padding-1);
   border-radius: 0.3rem;
   cursor: pointer;
-}
-
-header ul#nav-menu {
-  display: none;
 }
 
 header ul#nav-menu.show {
@@ -106,7 +105,6 @@ header ul#nav-menu.show a {
   padding: var(--padding-1) !important;
 }
 
-/** Small device styles */
 h1 {
   color: var(--black-100);
   font-size: var(--font-size-4);
@@ -143,7 +141,7 @@ textarea {
   padding-bottom: var(--padding-2);
 }
 
-/** Section: Hero */
+/** hero */
 .hero {
   display: flex;
   justify-content: center;
